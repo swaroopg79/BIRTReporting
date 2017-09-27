@@ -359,7 +359,7 @@ from CLASSICMODELS.ORDERS where CLASSICMODELS.ORDERS.CUSTOMERNUMBER=?]]></xml-pr
                             <label id="94">
                                 <property name="backgroundColor">#808080</property>
                                 <property name="fontSize">36pt</property>
-                                <text-property name="text">Customers Orders Summary</text-property>
+                                <text-property name="text">Customer's Orders Summary</text-property>
                             </label>
                         </cell>
                     </row>
@@ -521,6 +521,15 @@ from CLASSICMODELS.ORDERS where CLASSICMODELS.ORDERS.CUSTOMERNUMBER=?]]></xml-pr
                     </footer>
                 </table>
             </detail>
+            <footer>
+                <list id="143">
+                    <detail>
+                        <label id="144">
+                            <text-property name="text">Swaroop</text-property>
+                        </label>
+                    </detail>
+                </list>
+            </footer>
         </list>
     </body>
     <list-property name="images">
